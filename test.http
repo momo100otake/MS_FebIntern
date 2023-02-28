@@ -1,0 +1,7 @@
+POST https://japaneast.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=ja-JP&format=detailed HTTP/1.1
+Accept: application/json;text/xml
+Content-Type: audio/wav; codecs=audio/pcm; samplerate=16000
+Ocp-Apim-Subscription-Key: a8b8864f9c6942679dc6e34369234cd8
+Host: japaneast.stt.speech.microsoft.com
+Transfer-Encoding: chunked
+Expect: 100-continue
